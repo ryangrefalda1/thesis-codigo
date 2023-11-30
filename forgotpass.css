@@ -1,0 +1,151 @@
+body{
+    background-image: url('img/BG.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container{
+    margin-top: 10%;
+    min-height: 100vh;
+}
+
+.codigo {
+    border: solid #006400;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 450px;
+    height: auto;
+    background: #90EE90;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.codigo-link button {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.codigo-link input {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+.codigo hr {
+    color: #006400;
+}
+
+.codigo h3 {
+    text-align: center;
+    color: #006400;
+    font-family: sans-serif;
+}
+
+
+label {
+    color:#006400;
+    margin-bottom: 30px;
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    z-index: 2;
+    text-align: center;
+    }
+    
+    .navbar a {
+    text-decoration: none;
+    color: #704214;
+    margin-right: 2rem;
+    flex-basis: 7%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    
+    }
+    
+    
+    .navbar a:last-child {
+    margin-right: 0;
+    }
+    
+    .navbar-default{
+    transition: 500ms ease;
+    background: #9be2ec;
+    }
+    
+    .navbar-default.scrolled {
+    background-color: #F6D7B0;
+    }
+    
+    .navbar-logo {
+    flex-basis: auto;
+    text-align: left;
+    margin-bottom: -1.5em;
+    margin-top: -1.5em;
+    
+    }
+    
+    .navbar-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+    }
+
+
+    
+.footer {
+    background-color: #3D2B1F;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+  
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+.footer-links {
+    margin-top: 1.5rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+.footer-links a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.all-rights {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}

@@ -1,0 +1,136 @@
+body{
+    background-image: url('img/BG.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-container{
+    margin-top: 10%;
+    min-height: 100vh;
+}
+
+
+.codigo {
+    border: solid #006400;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 450px;
+    height: auto;
+    background: #90EE90;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.codigo-link {
+    padding: 20px;
+    text-align: center;
+}
+
+.codigo-link a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: transform .18s ease-in-out;
+}
+
+.codigo-link a:hover {
+    text-decoration: underline;
+}
+
+.codigo-link p a {
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.codigo-link p a:hover {
+    text-decoration: underline;
+}
+
+.codigo-link button {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.codigo-link input {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.codigo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.codigo h3 {
+    text-align: center;
+    color: #006400;
+    font-family: sans-serif;
+}
+
+.codigo p {
+    text-align: center;
+    color: #006400;
+    font-family: sans-serif;
+}
+
+.codigo hr {
+    color: #006400;
+}
+
+    
+.footer {
+    background-color: #3D2B1F;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+  
+  
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+.footer-links {
+    margin-top: 1.5rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+  
+.footer-links a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.all-rights {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+label {
+    color:#006400;
+
+}
+
+i {
+    border: none;
+}
